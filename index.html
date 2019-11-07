@@ -34,25 +34,73 @@
             content="https://codigo-pe.github.io/front_ejercicios1/"
         />
         <style>
+            /*Globals*/
             body{
                 font-family: Arial, Helvetica, sans-serif;
-                }
-            h1{
+                padding: 0px;
                 color: white;
+                }
+            *{
+                margin: 0px;
+                padding: 0px;
+            }
+            h1{
                 font-size: 48px;
             }
             h2{
-                color: white;
                 font-size: 36px;
             }
             h3{
-                color: white;
                 font-size: 24px;
             }
+            /*social-media*/
+            .social-icons{
+                position: absolute;
+                top:20px;
+                right: 20px;
+                z-index: 3;
+            }
+            /*banner*/
+            .presentacion h1{
+                position: absolute;
+                /* display: block; */
+                top: 60px;
+                /* margin-left: 40%; */
+                width: 100%;
+                text-align: center;
+            }
+            .presentacion h2{
+                position: absolute;
+                width: 350px;
+                height: 100px;
+                text-align: center;
+                background: rgba(26, 64, 189, 0.219);
+                padding: 10px;
+                bottom: 100px;
+                left: 50px;
+            }
             .presentacion{
+                position: relative;
                 background: white;
+                padding: 0px;
+            }
+            
+            .presentacion section{
+              
+            }
+
+            .presentacion figure{
+
+            }
+            
+            .presentacion img{
                 width: 100%;
             }
+            
+
+
+            /*skills*/
+
             .skills{
                 background: rgb(107, 100, 245);
             }
@@ -65,22 +113,20 @@
         </style>
     </head>
     <body>
-        <div id="fb-root"></div>
-        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v4.0"></script>
-        <!--LIST-SOCIAL-->
-        <ul>
-            <li>
-                <div class="fb-share-button" data-href="https://codigo-pe.github.io/front_ejercicios1/" data-layout="button_count" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fcodigo-pe.github.io%2Ffront_ejercicios1%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Compartir</a></div>
-            </li>
-            <li>
-
-            </li>
-        </ul>
+        <div id="fb-root">
+            <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v4.0"></script>
+            <!--LIST-SOCIAL-->
+            <ul class="social-icons">
+                <li>
+                    <div class="fb-share-button" data-href="https://codigo-pe.github.io/front_ejercicios1/" data-layout="button_count" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fcodigo-pe.github.io%2Ffront_ejercicios1%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Compartir</a></div>
+                </li>
+            </ul>
+        </div>
         <main>
         <!--PRESENTACIÓN DE CÓDIGO TECSUP-->
         <section class="presentacion">
             <h1>codiGO</h1>
-            <h2>Hola, mi nombre es Gustavo Pérez.</h2>
+            <h2 >Hola, mi nombre es Gustavo Pérez</h2>
             <figure>                    
                 <img
                     src="./images/image.png"
