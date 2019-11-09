@@ -1,0 +1,95 @@
+/*Globals*/
+body{
+  font-family: 'Roboto', sans-serif;
+  padding: 0px;
+  color: white;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+}
+h1{
+  font-size: 48px;
+}
+h2{
+  font-size: 36px;
+}
+h3{
+  font-size: 24px;
+}
+/*social-media*/
+.social-icons{
+  position: absolute;
+  top:20px;
+  right: 20px;
+  z-index: 3;
+}
+/*banner*/
+.presentacion h1{
+  position: absolute;
+  /* display: block; */
+  top: 60px;
+  /* margin-left: 40%; */
+  width: 100%;
+  text-align: center;
+}
+  .presentacion h2{
+  position: absolute;
+  width: 350px;
+  height: 100px;
+  text-align: center;
+  background: rgba(26, 64, 189, 0.219);
+  padding: 10px;
+  bottom: 100px;
+  left: 50px;
+}
+.presentacion{
+  display: block;  
+  position: relative;
+  background: white;
+  padding: 0px;
+}
+            
+.presentacion section{
+              
+}
+
+.presentacion figure{
+
+}
+            
+.presentacion img{
+  width: 100%;
+  height: 100%;
+}
+          
+/*skills*/
+
+.skills h2{
+  text-align: center;
+}
+.skills{
+  height: 500px;
+  width: 100%;
+  background: rgb(107, 100, 245);
+  padding-top: 40px;
+  }
+
+.skills .conocimientos{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10%;
+}
+
+.skills .tecnologia{
+  width: 20%;
+  height: 20%;
+}
+/*Servicios*/
+  .servicios{
+                background: rgb(255, 89, 89);
+}
+.portafolio{
+                background: rgb(252, 248, 5);
+            }
+        
