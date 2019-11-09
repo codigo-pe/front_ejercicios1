@@ -4,7 +4,8 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <title>Ejercicios_semana2</title>
+        <title>Página personal - Gustavo Pérez</title>
+        <link rel="stylesheet" href="./styles/reset.css">
         <link rel="stylesheet" href="./fonts/roboto/roboto.css">
         <link rel="stylesheet" href="./styles/main.css">
         <meta
@@ -34,17 +35,20 @@
             property="og:url"
             itemprop="url"
             content="https://codigo-pe.github.io/front_ejercicios1/"
-        />
-/       <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-        
+        />        
     </head>
     <body>
-        <div id="fb-root">
-            <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v4.0"></script>
-            <!--LIST-SOCIAL-->
-            <ul class="social-icons">
+        <!--<div id="fb-root"></div>-->
+        <!--<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v4.0"></script>-->
+        <!--LIST-SOCIAL-->
+        <div class="social-icons">
+            <ul>
                 <li>
-                    <div class="fb-share-button" data-href="https://codigo-pe.github.io/front_ejercicios1/" data-layout="button_count" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fcodigo-pe.github.io%2Ffront_ejercicios1%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Compartir</a></div>
+                    <img src="./images/facebookshare.png"/>
+                    <!--<div class="fb-share-button" data-href="https://codigo-pe.github.io/front_ejercicios1/" data-layout="button_count" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fcodigo-pe.github.io%2Ffront_ejercicios1%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Compartir</a></div>-->
+                </li>
+                <li>
+                    <img src="./images/tweet.png"/>
                 </li>
             </ul>
         </div>
@@ -56,8 +60,6 @@
             <figure>                    
                 <img
                     src="./images/image.png"
-                    width="960"
-                    height="525"
                     alt="Banner"
                 />
             </figure>
@@ -69,73 +71,85 @@
             <div class="conocimientos">
             <div class="tecnologia">
                 <h3>Html</h3>
-                <div><div></div></div>
+                <div class="barra-tecnologia"><div class="nivel-html"></div></div>
             </div>
             <!--nivel de conocimiento css-->
             <div class="tecnologia">
                 <h3>Css</h3>
-                <div><div></div></div>
+                <div class="barra-tecnologia"><div class="nivel-css"></div></div>
             </div>
             <!--nivel de conocimiento Angular-->
             <div class="tecnologia">
                 <h3>Angular</h3>
-                <div><div></div></div>
+                <div class="barra-tecnologia"><div class="nivel-angular"></div></div>
             </div>
             <!--nivel de conocimiento Figma-->
             <div class="tecnologia">
                 <h3>Figma</h3>
-                <div><div></div></div>
+                <div class="barra-tecnologia"><div class="nivel-figma"></div></div>
             </div>
             <!--nivel de conocimiento Javascript-->
             <div class="tecnologia">
                 <h3>Javascript</h3>
-                <div><div></div></div>
+                <div class="barra-tecnologia"><div class="nivel-javascript"></div></div>
             </div>
             <!--nivel de conocimiento React-->
             <div class="tecnologia">
                 <h3>React</h3>
-                <div><div></div></div>
+                <div class="barra-tecnologia"><div class="nivel-react"></div></div>
             </div>
             <!--nivel de conocimiento Python-->
             <div class="tecnologia">
                 <h3>Python</h3>
-                <div><div></div></div>
+                <div class="barra-tecnologia"><div class="nivel-python"></div></div>
             </div>
             <!--nivel de conocimiento Node.js-->
             <div class="tecnologia">
                 <h3>Node.js</h3>
-                <div><div></div></div>
+                <div class="barra-tecnologia"><div class="nivel-nodejs"></div></div>
             </div>
             </div>
         </section>
         <!--Servicios-->
         <section class="servicios">
             <h2>Servicios</h2>
-            <div>
-                <h3>Diseño web</h3>
-                <img
-                    src="./images/Vector.png"
-                />
-                <h3>Desarrollo web</h3>
-                <img
-                    src="./images/Vector.png"
-                />
-                <h3>Desarrollo Mobile</h3>
-                <img
-                    src="./images/Vector.png"
-                />
-                <h3>Diseño UI</h3>
-                <img
-                    src="./images/Vector.png"
-                />
-                <h3>Diseño UX</h3>
-                <img
-                    src="./images/Vector.png"
-                />
-                <h3>Metodologías Ágiles</h3>
-                <img
-                    src="./images/Vector.png"
-                />
+            <div class="servicios-listado">
+                <div class="servicio-tipo">
+                    <img
+                        src="./images/Vector.png"
+                    />
+                    <h3>Diseño web</h3>
+                </div>
+                <div class="servicio-tipo">
+                    <img
+                        src="./images/Vector.png"
+                    />
+                    <h3>Desarrollo web</h3>
+                </div>
+                <div class="servicio-tipo">
+                    <img
+                        src="./images/Vector.png"
+                    />
+                    <h3>Desarrollo Mobile</h3>
+                </div>
+                <div class="servicio-tipo">
+                    <img
+                        src="./images/Vector.png"
+                    />
+                    <h3>Diseño UI</h3>
+                </div>
+                <div class="servicio-tipo">
+                    <img
+                        src="./images/Vector.png"
+                    />
+                    <h3>Diseño UX</h3>
+                </div>
+                <div class="servicio-tipo">
+                    <img
+                        src="./images/Vector.png"
+                    />
+                    <h3>Metodologías Ágiles</h3>
+                </div>
             </div>
         </section>
         <!--PORTAFOLIO-->
