@@ -1,32 +1,33 @@
-body{
-  font-family: 'Roboto', sans-serif;
+body {
+  font-family: "Roboto", sans-serif;
   padding: 0px;
   color: white;
 }
-*{
+* {
   margin: 0px;
   padding: 0px;
 }
-h1{
+h1 {
   font-size: 64px;
 }
-h2{
+h2 {
   font-size: 36px;
 }
-h3{
+h3 {
   font-size: 24px;
 }
 
 /*social-media*/
 
-.social-icons{
+.social-icons {
   position: absolute;
-  top:11px;
+  top: 11px;
   right: 11px;
   z-index: 1;
 }
 
-.social-icons ul, li {
+.social-icons ul,
+li {
   list-style: none;
   display: flex;
   margin-left: 9px;
@@ -34,7 +35,7 @@ h3{
 
 /*banner*/
 
-.presentacion h1{
+.presentacion h1 {
   position: absolute;
   display: block;
   top: 36px;
@@ -44,7 +45,7 @@ h3{
   font-style: normal;
   font-weight: bold;
 }
-  .presentacion h2{
+.presentacion h2 {
   position: absolute;
   width: 365px;
   height: 117px;
@@ -56,24 +57,24 @@ h3{
   font-style: normal;
   font-weight: bold;
 }
-.presentacion{
-  display: block;  
+.presentacion {
+  display: block;
   position: relative;
   background: white;
   padding: 0px;
   margin: 0px;
 }
-          
-.presentacion img{
+
+.presentacion img {
   width: 100%;
   height: 100%;
   margin: 0%;
   padding: 0%;
 }
-          
+
 /*skills*/
 
-.skills h2{
+.skills h2 {
   text-align: center;
   padding-top: 50px;
   margin-bottom: 30px;
@@ -81,26 +82,26 @@ h3{
   font-weight: bold;
 }
 
-.skills h3{
+.skills h3 {
   font-size: 18px;
   font-style: normal;
   font-weight: bold;
   margin-bottom: 15px;
 }
-.skills{
+.skills {
   height: 494px;
   width: 100%;
-  background:#7299FE;
-  }
+  background: #7299fe;
+}
 
-.skills .conocimientos{
+.skills .conocimientos {
   display: flex;
   flex-wrap: wrap;
   padding-right: 10%;
   padding-left: 10%;
 }
 
-.skills .tecnologia{
+.skills .tecnologia {
   width: 40%;
   height: 20%;
   padding-top: 20px;
@@ -109,66 +110,65 @@ h3{
   padding-left: 5%;
 }
 
-.skills .nivel-html{
+.skills .nivel-html {
   background: black;
   height: 17px;
   width: 90%;
 }
 
-.skills .nivel-css{
+.skills .nivel-css {
   background: black;
   height: 17px;
   width: 90%;
 }
 
-.skills .nivel-angular{
+.skills .nivel-angular {
   background: black;
   height: 17px;
   width: 50%;
 }
 
-.skills .nivel-figma{
+.skills .nivel-figma {
   background: black;
   height: 17px;
   width: 50%;
 }
 
-.skills .nivel-javascript{
+.skills .nivel-javascript {
   background: black;
   height: 17px;
   width: 50%;
 }
 
-.skills .nivel-react{
+.skills .nivel-react {
   background: black;
   height: 17px;
   width: 50%;
 }
 
-.skills .nivel-python{
+.skills .nivel-python {
   background: black;
   height: 17px;
   width: 50%;
 }
 
-.skills .nivel-nodejs  {
+.skills .nivel-nodejs {
   background: black;
   height: 17px;
   width: 50%;
 }
 
-.skills .barra-tecnologia{
+.skills .barra-tecnologia {
   background: white;
 }
 
 /*Servicios*/
-.servicios{
+.servicios {
   background: rgb(255, 89, 89);
-  width: 100%;
   height: 424px;
 }
 
-.servicios h2{
+.servicios h2 {
   text-align: center;
   padding-top: 50px;
   margin-bottom: 30px;
@@ -176,32 +176,54 @@ h3{
   font-weight: bold;
 }
 
-.servicios h3{
+.servicios h3 {
   text-align: center;
   font-style: normal;
   font-weight: bold;
-  font-size: 24px;
 }
 
-.servicios .servicios-listado{
+.servicios .servicios-listado {
   display: flex;
   flex-wrap: wrap;
-  padding-right: 20%;
-  padding-left: 20%;
+  padding-right: 5%;
+  padding-left: 5%;
 }
 
-.servicios .servicio-tipo{
-  width: 20%;
+.servicios .servicio-tipo {
+  width: 33.3333%;
   height: 20%;
   padding-top: 20px;
-  padding-right: 5%;
+  /*padding-right: 5%;
   padding-bottom: 10px;
-  padding-left: 5%;
+  /*padding-left: 5%;*/
   text-align: center;
 }
 
-/*Portafolio/
-.portafolio{
-                background: rgb(252, 248, 5);
-            }
-        
+/*Portafolio*/
+.portafolio {
+  background: #ffd233;
+  height: 424px;
+}
+
+.portafolio h2 {
+  text-align: center;
+  padding-top: 50px;
+  margin-bottom: 30px;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.portafolio .proyectos {
+  display: flex;
+  flex-wrap: wrap;
+  padding-right: 25%;
+  padding-left: 25%;
+}
+
+.portafolio figure {
+  width: 15%;
+  padding-top: 20px;
+  padding-right: 5%;
+  padding-bottom: 15px;
+  padding-left: 5%;
+}
